@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>markus</title>
+  <link rel="stylesheet" href="/src/assets/css/style.css">  
+</head>
+<body>
+  <div class="img"></div>
+
+  <a href="" type="button" class="google-login"></a>
+
+  <div class="container">
+    <div class="box">
+        <h2>Реєстрація</h2>
+        <form action="/handler/create.php" method="post" id="form-create">
+            <div>
+                <input type="text" name= "first_name" required="required">
+                <span> Ім`я </span>
+                <i></i>
+            </div>
+            
+            <div>
+                <input type="text" name= "last_name" required="required">
+                <span> Прізвище </span>
+                <i></i>
+            </div>
+
+            <div>
+                <input type="text" name= "email" required="required">
+                <span> Поштова скринька </span>
+                <i></i>
+            </div>
+
+            <div>
+                <input type="password" name= "password" required="required">
+                <span> Пароль </span>
+                <i></i>
+            </div>
+            </button>
+            <input type="submit" class="register" value="Надіслати">
+        </form>
+        
+        <div class="box-form">
+            <h2>Увійти</h2>
+            <form action="/handler/create.php" method="post" id="form-create">
+                <div>
+                    <input type="text" name= "email" required="required">
+                    <span> Поштова скринька </span>
+                    <i></i>
+                </div>
+
+                <div>
+                    <input type="password" name= "password" required="required">
+                    <span> Пароль </span>
+                    <i></i>
+                </div>
+
+                <input type="submit" value="Надіслати">
+                <a href="face_scan.php" type="button" class="Face-auntefication"></a>
+            </form>
+            <div class="close"></div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="/src/js/form.js"></script>
+</body>
+</html>
